@@ -5,10 +5,17 @@ import Participants from "./Participants";
 import Button from "@material-ui/core/Button";
 
 const textAreaStyles = {
+  fontWeight:"15px",
   border: "0px",
   marginLeft: "5px",
   width: "100%"
 };
+
+const formStyles = {
+  marginTop:"10px",
+  height:"70px",
+  width:"80px"
+}
 function CreateArea(props) {
   const [input, setInput] = useState("");
   const [activity, getActivity] = useState(null);
@@ -21,7 +28,7 @@ function CreateArea(props) {
     setInput(e.target.value);
   }
 
-  const getApi = () => {
+  function getApi () {
     fetch(baseUrl + "type=" + input)
       .then((response) => {
         if (response.ok) {
@@ -45,11 +52,11 @@ function CreateArea(props) {
 
   return (
     <div>
-      <form>
+      <form style={formStyles}>
         <div>
           <input
             name="word"
-            placeholder="Bored? Enter the type of activity you would be willing to try. e.g. education"
+            placeholder="Bored? Enter the type of activity you would be willing to try e.g. education"
             onChange={handleInputChange}
             style={textAreaStyles}
           />

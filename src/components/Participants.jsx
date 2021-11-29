@@ -21,14 +21,12 @@ export default function Participants() {
     if (participants > 0) {
       setParticipants(participants - 1);
     }
-    // if (setParticipants(participants) < 0) {
-    //   setParticipants(0);
-    // }
+  
   }
 
   return (
     <div style={divStyles}>
-      <p>Participants: {participants}</p>
+      <div style={{textAlign:"center",marginLeft:"20px"}}>Participants: <p>{participants}</p></div>
       <Button
         variant="contained"
         color="success"
