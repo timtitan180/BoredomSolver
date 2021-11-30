@@ -1,4 +1,4 @@
-#Boredom Solver
+Boredom Solver
 
 An application built using React that helps users overcome their boredom with suggested activities for them to do by themselves or with friends. Boredom Api was used for the suggested activites
 
