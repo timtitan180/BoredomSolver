@@ -12,6 +12,7 @@ What I learned:
   
   
 Improved on:
+
   -React Lifecycle 
     
   -Updating/Changing state for various components
