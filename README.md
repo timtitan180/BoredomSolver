@@ -4,17 +4,17 @@ An application built using React that helps users overcome their boredom with su
 
 What I learned:
   
-  Fetching an api with React and rendering the data
+  -Fetching an api with React and rendering the data
   
-  The Material-UI library for React
+  -The Material-UI library for React
   
-  Connecting the backend to the frontend
+  -Connecting the backend to the frontend
   
   
 Improved on:
-    React Lifecycle 
+  -React Lifecycle 
     
-    Updating/Changing state for various components
+  -Updating/Changing state for various components
     
    
 How to Use:
