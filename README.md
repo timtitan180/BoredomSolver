@@ -18,7 +18,7 @@ Improved on:
     
    
 How to Use:
- The web app is live and hosted with Heroku so just gohttps://https://boredomsolver.herokuapp.com/ to try it out
+ The web app is live and hosted with Heroku so just go to https://https://boredomsolver.herokuapp.com/ to try it out
  
  
  If you would like to contribute:
